@@ -1,0 +1,19 @@
+/* =========================================================
+   ADDITIONAL OVERRIDES — hero text readability on light bg
+   ========================================================= */
+
+/* The hero uses a light green gradient — make title dark */
+.hero__title {
+  color: #0d1f12;
+  text-shadow: none;
+}
+
+/* Pain section: description text should be dark-green, not orange */
+.pain__card-desc {
+  color: #3a6840;
+}
+
+/* Services: description text dark-green */
+.service-card__desc {
+  color: #3a6840;
+}
